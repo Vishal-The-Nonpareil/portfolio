@@ -15,7 +15,7 @@ function Navbar() {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth <= 500) {
-        closeMenu
+        closeMenu();
       }
     };
 
@@ -28,7 +28,7 @@ function Navbar() {
 
   useEffect(() => {
     if (window.innerWidth <= 1200) {
-      closeMenu
+      closeMenu();
     }
   }, []);
 
@@ -37,10 +37,8 @@ function Navbar() {
       <div>
         <img src="./logo.png" alt="Logo" id="logo" />
       </div>
-      <a
-        className={`nav__hamburger ${navActive ? "active" : ""}`}
-        onClick={toggleNav}
-      >
+      <a href="/" className={`nav__hamburger ${navActive ? "active" : ""}`}
+        onClick={toggleNav}>
         <span className="nav__hamburger__line"></span>
         <span className="nav__hamburger__line"></span>
         <span className="nav__hamburger__line"></span>

@@ -1,5 +1,5 @@
 {
-  "homepage": "https://vishal-the-nonpareil.github.io/portfolio/",
+  "homepage": "https://Vishal-The-Nonpareil.github.io/my-portfolio/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -38,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.14.5",
     "gh-pages": "^6.0.0"
   }
 }

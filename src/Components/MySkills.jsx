@@ -1,4 +1,4 @@
-import data from "../../data/index.json";
+import data from "../Data/index.json";
 
 export default function MySkills() {
   return (
