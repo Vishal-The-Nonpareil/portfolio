@@ -6,6 +6,8 @@ body {
   -webkit-font-smoothing: "Roboto", sans-serif;
   -moz-osx-font-smoothing: "Roboto", sans-serif;
   font-style: normal;
+  text-align: justify;
+  
 }
 h1,
 h2,
@@ -333,12 +335,15 @@ h2 {
 /* About Us Ends */
 
 /* My Portfolio Starts */
+
 .portfolio--section {
   display: flex;
   padding: 112px 85px;
   flex-direction: column;
   align-items: flex-start;
   gap: 80px;
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
 }
 .portfolio--container-box {
   display: flex;
@@ -351,6 +356,11 @@ h2 {
   flex-direction: column;
   align-items: flex-start;
   gap: 21.3px;
+  color: white;
+}
+
+.portfolio--container p {
+  color: var(--white);
 }
 .portfolio--section--container {
   display: flex;
@@ -399,6 +409,9 @@ h2 {
 }
 .portfolio--section--card:hover path {
   stroke: #006b6a;
+}
+a {
+  text-decoration: none;
 }
 /* Portfolio Ends */
 
