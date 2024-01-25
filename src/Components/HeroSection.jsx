@@ -14,7 +14,7 @@ export default function HeroSection() {
             <br /> With a strong foundation in both front-end and back-end development
           </p>
         </div>
-        <button className="btn btn-primary">Get In Touch</button>
+        <button className="btn btn-primary">Resume</button>
       </div>
       <div className="hero--section--img">
         <img src="./img/about-me.jpg" alt="Hero Section" />
